@@ -1,10 +1,21 @@
-<svg fill="none" width="300px" height="120px" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="300px" height="120px">
+<svg fill="none" width="300px" height="100px" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="300px" height="100px">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         p {
           font-size: 16px;
-          font-family: Segoe UI,Helvetica,Arial;
+          font-family: "Segoe UI",Helvetica,Arial;
+          animation: show 1s ease-in-out 5s both;
+        }
+        @keyframes show {
+            from {
+                margin: -10px;
+                opacity: 0;
+            }
+            to   {
+                margin: 10px;
+                opacity: 1;
+            }
         }
       </style>
       <div align="center">
