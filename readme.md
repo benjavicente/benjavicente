@@ -1,5 +1,5 @@
-<div align="center">
+<div align="center" style="display:flexjustify-content:center">
   <a href="https://github.com/benjavicente">
-    <img src="portafolio.svg">
+    <img src="readme.svg">
   </a>
 </div>
